@@ -1,0 +1,28 @@
+
+.aa-paralax {
+  position: relative;
+  background-attachment: fixed;
+  background-position: 50% 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 450px;
+}
+
+.bg-img-1 { background-image: url(https://unsplash.it/1800/1200/?random); }
+
+.bg-img-2 { background-image: url(https://unsplash.it/1800/1600/?random); }
+
+.bg-img-3 { background-image: url(https://unsplash.it/1800/1200/?random); }
+
+.text > .row {
+  background-color: white;
+  color: #1fff;
+  border-top: 2px solid #31353D;
+  border-bottom: 2px solid #31353D;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+.text > .row p { margin-top: 10px; }
+
+/*# sourceMappingURL=aa-paralax.css.map */

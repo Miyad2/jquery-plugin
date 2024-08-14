@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+    vertical-align: middle;
+    background: #ccc;
+
+}
+
+ul,
+li,
+a {
+    text-decoration: none;
+}
+
+/* 000000000000000000000000000000000000000000000000000000000 */
+
+
+
+.counter-up {
+    display: flex;
+    color: #000000;
+    background: darkgray;
+    width: 200px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.counter-up .counter {
+    font-size: 30px;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+.counter-up span {
+    margin-right: 5px;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+section.fancy-box-part .fancy-box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+section.fancy-box-part .fancy-box a img {
+    width: 300px;
+    height: 200px;
+}
+
+div#particles-js {
+    background: #000;
+}
+.particles {
+    text-align: center;
+    color: #fff;
+}
+section.particles-part {
+    height: 300px;
+    overflow: hidden;
+}
+.aa-paralax {
+    position: relative;
+    background: url(../img/BG-speaker.png);
+    background-attachment: fixed;
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 450px;
+  }
+  .clients_section {
+    width: 90%;
+    margin:20px auto;
+}
+.c_p_images {
+    margin: 10px;
+}
+section.circle-progress-part-2 {
+    padding: 100px 0px;
+}
+section.circle-progress-part-2 .ahfh {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+}
+section.circle-progress-part-2 .ahfh .percircle{
+    margin: 0px 0px 20px 0px;
+}
+.text_c {
+    width: 200px;
+    margin: auto;
+    padding: 20px 0px;
+}
+div#countdown {
+    text-align: center;
+}
+
+section.waterRipples {
+    padding: 200px 0px;
+    background: url(../img/BG-speaker.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+
+
+
+
+
+
+
+
