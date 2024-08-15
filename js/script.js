@@ -1,7 +1,6 @@
 
 
-// 
-AOS.init();
+
 
 $(document).ready(function () {
 	$('.counter').counterUp({
@@ -66,6 +65,9 @@ $(".waterRipples").ripples({
   }
 );
 wow.init();
+	// 
+	// 
+AOS.init();
 
 // init Isotope
 var $grid = $('.grid').isotope({
