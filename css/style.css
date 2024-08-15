@@ -18,10 +18,7 @@ a {
 
 /* 000000000000000000000000000000000000000000000000000000000 */
 
-h2 {
-    text-align: center;
-        width: 100%;
-}
+
 
 .counter-up {
     display: flex;
@@ -109,10 +106,82 @@ section.waterRipples {
 
 }
 
+h2{
+    width: 100%;
+    text-align: center;
+}
 
+/* =========================****************** */
 
-
-
-
-
-
+.item1 {
+    background: #d24f4f;
+    padding: 10px 10px;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .item2{
+    background: #3f6c9b;
+    padding: 10px 10px;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .item3{
+    background: #8BC34A;
+    padding: 10px 10px;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .item4{
+    background: #7bbeb3;
+    padding: 10px 10px;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .item5{
+    background: #be7b7b;
+    padding: 10px 10px;
+    width: 100%;
+    height: 70px;
+    margin-top: 20px;
+  }
+  .img{
+  
+  margin: auto;
+  
+  width: 96%;
+  margin-bottom: 10px;
+  }
+  .img img {
+    width: 100%;
+    height: 211px;
+  }
+  .syotimer__body {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.syotimer-cell {
+    height: 100px;
+    width: 100px;
+    margin-top: 50px;
+    background: url(../img/timer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.syotimer-cell__value {
+    font-size: 20px;
+    font-weight: 700;
+}
+.syotimer-cell__unit{
+    font-size: 20px;
+    font-weight: 400;
+}
