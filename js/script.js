@@ -1,3 +1,4 @@
+
 wow = new WOW(
   {
     animateClass: 'animated',
@@ -10,8 +11,6 @@ wow = new WOW(
 wow.init();
 // 
 AOS.init();
-
-
 
 $(document).ready(function () {
 	$('.counter').counterUp({
@@ -65,7 +64,6 @@ $(".waterRipples").ripples({
   perturbance: 0.04,
   resolution:300,
 });
-
 
 
 // init Isotope
