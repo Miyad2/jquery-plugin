@@ -1,4 +1,12 @@
-
+wow = new WOW(
+  {
+    animateClass: 'animated',
+    offset:       100,
+    callback:     function(box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  }
+);
 wow.init();
 // 
 AOS.init();
@@ -58,15 +66,7 @@ $(".waterRipples").ripples({
   resolution:300,
 });
 
-wow = new WOW(
-  {
-    animateClass: 'animated',
-    offset:       100,
-    callback:     function(box) {
-      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-    }
-  }
-);
+
 
 // init Isotope
 var $grid = $('.grid').isotope({
