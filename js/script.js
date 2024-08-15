@@ -51,12 +51,49 @@ $(".waterRipples").ripples({
   resolution:300,
 });
 
+wow = new WOW(
+  {
+    animateClass: 'animated',
+    offset:       100,
+    callback:     function(box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  }
+);
+wow.init();
+// 
+AOS.init();
+// init Isotope
+var $grid = $('.grid').isotope({
+});
+$('.btn').on( 'click', 'button', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+
+// ==========
 
 
+$(window).on("load",function(){
 
+$.preloader.start({
+  modal: true,
+  src : 'img/sprites2.png'
+});
 
+setTimeout(function(){
+  $.preloader.stop();
+}, 3000);
 
+})
 
+// ===========================
+
+$('#change_options').syotimer({
+  periodic: true,
+  periodInterval: 3,
+  periodUnit: 'd'
+});
 
 
 
