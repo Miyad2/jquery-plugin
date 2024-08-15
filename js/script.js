@@ -1,3 +1,10 @@
+
+wow.init();
+// 
+AOS.init();
+
+
+
 $(document).ready(function () {
 	$('.counter').counterUp({
 		delay: 50,
@@ -60,9 +67,7 @@ wow = new WOW(
     }
   }
 );
-wow.init();
-// 
-AOS.init();
+
 // init Isotope
 var $grid = $('.grid').isotope({
 });
