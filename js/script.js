@@ -1,15 +1,29 @@
 
+// wow js
+wow = new WOW(
+  {
+    animateClass: 'animated',
+    offset:       100,
+    callback:     function(box) {
+      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+    }
+  }
+);
+wow.init();
 
+// Jquery 
 
-
+//Counter
 $(document).ready(function () {
 	$('.counter').counterUp({
 		delay: 50,
 		time: 3000,
 	});
-//
+
+//Fancybox
 $('[data-fancybox="gallery]').fancybox();
 
+//slider
 $('.clients').slick({
     dots: true,
     infinite: true,
@@ -17,13 +31,11 @@ $('.clients').slick({
     slidesToShow: 4,
     slidesToScroll: 1,
   });
-//
 
+//Progress
 $(".circle-progress").percircle({
 	progressBarColor: "#CC3366",
 	percent: 65 ,
-	
-	
 });
 $(".circle-progress-1").percircle({
 	progressBarColor: "#CC3366",
@@ -35,9 +47,14 @@ $(".circle-progress-2").percircle({
 	percent: 100 ,
 	
 });
-//
+
+// AOS
+AOS.init();
+
+//Word Length
 $('[maxlength]').maxlength();
-//
+
+//Countdown
 var countdown = $("#countdown").countdown360({
     radius      : 60,
     seconds     : 100,
@@ -47,29 +64,14 @@ var countdown = $("#countdown").countdown360({
 });
 countdown.start();
 
-// =====================
-
+// waterRipples
 $(".waterRipples").ripples({
   dropRadius: 30,
   perturbance: 0.04,
   resolution:300,
 });
-// 
-	wow = new WOW(
-  {
-    animateClass: 'animated',
-    offset:       100,
-    callback:     function(box) {
-      console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
-    }
-  }
-);
-wow.init();
-	// 
-	// 
-AOS.init();
 
-// init Isotope
+//Isotope
 var $grid = $('.grid').isotope({
 });
 $('.btn').on( 'click', 'button', function() {
@@ -77,9 +79,7 @@ $('.btn').on( 'click', 'button', function() {
   $grid.isotope({ filter: filterValue });
 });
 
-// ==========
-
-
+// Loader
 $(window).on("load",function(){
 
 $.preloader.start({
@@ -93,8 +93,7 @@ setTimeout(function(){
 
 })
 
-// ===========================
-
+// Timer
 $('#change_options').syotimer({
   periodic: true,
   periodInterval: 3,
